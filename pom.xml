@@ -15,35 +15,33 @@
         <java.version>17</java.version> <!-- Use Java 17 or change as needed -->
         <spring-boot.version>3.1.2</spring-boot.version>
     </properties>
+<dependencies>
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-web</artifactId>
+        <version>3.2.2</version> <!-- Add the correct version -->
+    </dependency>
 
-    <dependencies>
-        <!-- Spring Boot Starter for Web -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        <version>3.2.2</version> <!-- Add the correct version -->
+    </dependency>
 
-        <!-- Spring Boot Starter for Thymeleaf (optional, if using dynamic pages) -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-thymeleaf</artifactId>
-        </dependency>
-
-        <!-- Spring Boot Starter for Testing -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
-
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-test</artifactId>
+        <version>3.2.2</version> <!-- Add the correct version -->
+        <scope>test</scope>
+    </dependency>
+</dependencies>
     <build>
-        <plugins>
-            <!-- Spring Boot Maven Plugin -->
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
+    <plugins>
+        <plugin>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-maven-plugin</artifactId>
+            <version>3.2.2</version> <!-- Add the correct version -->
+        </plugin>
+    </plugins>
+</build>
 </project>
