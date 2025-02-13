@@ -35,12 +35,12 @@
         <scope>test</scope>
     </dependency>
 </dependencies>
-    <build>
+<build>
     <plugins>
         <plugin>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-maven-plugin</artifactId>
-            <version>3.2.2</version> <!-- Add the correct version -->
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-war-plugin</artifactId>
+            <version>3.4.0</version> <!-- Updated version -->
         </plugin>
     </plugins>
 </build>
